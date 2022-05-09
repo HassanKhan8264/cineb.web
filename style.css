@@ -10,6 +10,10 @@
     font-family:roboto ;
     src: url(./fonts/Roboto/Roboto-Regular.ttf);
 }
+*{
+    font-family: roboto;
+    src:url(./fonts/Roboto/Roboto-Thin.ttf);
+}
 body{
     margin:0;
     padding:0;
@@ -548,44 +552,203 @@ body{
     
 }
 
-.icon{
+.icon1{
     /* border: 1px solid red; */
-    width: 60px;
-    height: 60px;
-    border-radius: 100px;
+    width: 269.90px;
+    height: 350px;
     position: absolute;
-    top: 510px;
-    left: 180px;
-    /* opacity: 100; */
-    /* z-index: 1; */
-    /* display: none; */
-    /* visibility: hidden; */
+    top: 389px;
+    left: 87px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: none;
 }
-.icon i{
+.icon1 i{
     color: #59815b;
     font-size:69px;
+    visibility: hidden;
+
 }
-.icon:hover{
+.icon1:hover{
     cursor: pointer;
 }
-.img1:hover{
-    opacity: 0.3;
+.img1:hover .icon1 i{
+    visibility: visible;
+
 }
-.img2:hover{
-    opacity: 0.3;
-}
-.img3:hover{
-    opacity: 0.3;
-   
-}
-.img4:hover{
-    opacity: 0.3;
-   
-}
-.img5:hover{
-    opacity: 0.3;
+.img1:hover .icon1{
+    /* opacity: 0.3; */
+    display: block;
+    background-color:rgba(0, 0, 0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
-} 
+}
+.icon2{
+    /* border: 1px solid red; */
+    width: 269.90px;
+    height: 350px;
+    position: absolute;
+    top: 389px;
+    left: 374px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.icon2 i{
+    color: #59815b;
+    font-size:69px;
+    visibility: hidden;
+
+}
+.icon2:hover{
+    cursor: pointer;
+}
+.img2:hover .icon2 i{
+    visibility: visible;
+
+}
+.img2:hover .icon2{
+    /* opacity: 0.3; */
+    display: block;
+    background-color:rgba(0, 0, 0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icon3{
+    /* border: 1px solid red; */
+    width: 269.90px;
+    height: 350px;
+    position: absolute;
+    top: 389px;
+    left: 660px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.icon3 i{
+    color: #59815b;
+    font-size:69px;
+    visibility: hidden;
+
+}
+.icon3:hover{
+    cursor: pointer;
+}
+.img3:hover .icon3 i{
+    visibility: visible;
+
+}
+.img3:hover .icon3{
+    /* opacity: 0.3; */
+    display: block;
+    background-color:rgba(0, 0, 0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icon4{
+    /* border: 1px solid red; */
+    width: 269.90px;
+    height: 350px;
+    position: absolute;
+    top: 389px;
+    left: 946px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.icon4 i{
+    color: #59815b;
+    font-size:69px;
+    visibility: hidden;
+
+}
+.icon4:hover{
+    cursor: pointer;
+}
+.img4:hover .icon4 i{
+    visibility: visible;
+
+}
+.img4:hover .icon4{
+    /* opacity: 0.3; */
+    display: block;
+    background-color:rgba(0, 0, 0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon5{
+    /* border: 1px solid red; */
+    width: 269.90px;
+    height: 350px;
+    position: absolute;
+    top: 389px;
+    left: 1232px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.icon5 i{
+    color: #59815b;
+    font-size:69px;
+    visibility: hidden;
+
+}
+.icon5:hover{
+    cursor: pointer;
+}
+.img5:hover .icon5 i{
+    visibility: visible;
+
+}
+.img5:hover .icon5{
+    /* opacity: 0.3; */
+    display: block;
+    background-color:rgba(0, 0, 0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .iconleft{
     border: 1px solid lightgray;
     height: 50px;
@@ -602,8 +765,10 @@ body{
 
 }
 .iconleft:hover{
-
+    background-color: lightgray;
+    cursor: pointer;
 }
+
 .iconright{
     border: 1px solid lightgray;
     height: 50px;
@@ -617,4 +782,8 @@ body{
     justify-content: center;
     align-items: center;
     box-shadow: 2px 2px 4px lightgray;
+}
+.iconright:hover{
+    background-color: lightgray;
+    cursor: pointer;
 }
