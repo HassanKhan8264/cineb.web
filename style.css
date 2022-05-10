@@ -54,8 +54,7 @@ body{
     width: 100vw;
     transform: translateX(-105vw);
     transform-origin:0,0;
-    background-color: black;
-    opacity: 0.7;
+    background-color:black;
     transition: 0.7s ease-in-out;
 }
 .menu-icon{
@@ -75,6 +74,7 @@ body{
     margin: 5px 0px 5px 0px;
     transition: 0.7s ease-in-out;
     transform: none;
+    
 }
 .check{
     position: absolute;
@@ -85,10 +85,10 @@ body{
     opacity: 00;
     height: 6vh;
 }
-
 #menu:checked ~ .menu-box {
     left: -5vh;
     transform: translateX(-5vw);
+    
 }
 #menu:checked ~ .menu-icon span:nth-of-type(2) {
     transform: translate(0,250%) rotate(-45deg);
@@ -728,9 +728,516 @@ body{
     align-items: center;
     
 }
+.names{
+    display: flex;
+}
+#year{
+    margin-left: 20px;
+    /* col */
+    font-size: 14px;
+    color: gray;
+}
+.title1{
+    border: 1px solid red;
+    /* display: block; */
+    height: 60px;
+    width: 340px;
+    margin: 4px;
+    text-indent: 8px;
+    /* padding: 6px; */
+}
+.title1 button{
+    background-color: #59815b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 8px;
+}
 
+.title2{
+    border: 1px solid red;
+    /* display: block; */
+    height: 60px;
+    width: 340px;
+    margin: 4px;
+    text-indent: 8px;
+    /* padding: 6px; */
+}
+.title2 button{
+    background-color: #59815b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 8px;
+}
 
+.title3{
+    border: 1px solid red;
+    /* display: block; */
+    height: 60px;
+    width: 340px;
+    margin: 4px;
+    text-indent: 8px;
+    /* padding: 6px; */
+}
+.title3 button{
+    background-color: #59815b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 8px;
+}
+.title4{
+    border: 1px solid red;
+    /* display: block; */
+    height: 60px;
+    width: 340px;
+    margin: 4px;
+    text-indent: 8px;
+    /* padding: 6px; */
+}
+.title4 button{
+    background-color: #59815b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 8px;
+}
+.title5{
+    border: 1px solid red;
+    /* display: block; */
+    height: 60px;
+    width: 340px;
+    margin: 4px;
+    text-indent: 8px;
+    /* padding: 6px; */
+}
+.title5 button{
+    background-color: #59815b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 8px;
+}
+.movies-list{
+    border: 1px solid red;
+    width:100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.left-list{
+    border: 1px solid red;
+    width: 75%;
+    /* height: 100px; */
+    margin: 4px;
+    /* display: flex;
+    flex-direction: row; */
+}
+.right-list{
+    border: 1px solid red;
+    width: 25%;
+    height: 100px;
+    /* background-color: red; */
+    margin: 4px;
+    display: flex;
+    flex-direction: row;
 
+}
+
+.trending1{
+    display: flex;
+    border: 1px solid red;
+    height: 50px;
+    width: 100%;
+    /* justify-content: center; */
+    align-items: center;
+}
+.trending{
+    /* border: 1px solid red; */
+    height: 40px;
+    margin: 10px;
+    width: 110px;
+    color: #59815b;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.movies{
+    /* border: 1px solid red; */
+    height: 40px;
+    margin: 10px;
+    width: 110px;
+    color: white;
+    background-color: #59815b;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+.tv-shows{
+    border: 1px solid lightgray;
+    height: 40px;
+    margin: 10px;
+    width: 110px;
+    color:black;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trending-list{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.movie1{
+    border: 1px solid red;
+    height: 200px;
+    width: 160px;
+    margin: 4px;
+    border-radius: 4px;
+}
+.movie1 img{
+    height: 200px;
+    width: 160px;
+    border-radius: 4px;
+}
+.none1{
+    border: 1px solid red;
+    height: 200px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    display: none;
+    background-color: rgba(0, 0, 0,0.6);
+    position: absolute;
+    top: 883px;
+}
+.none1 i{
+    font-size: 60px;
+    color: #59815b;
+    visibility: hidden;
+}
+.movie1:hover .none1{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.movie1:hover .none1>i{
+    visibility: visible;
+    cursor: pointer;
+
+}
+.movie2{
+    border: 1px solid red;
+    height: 200px;
+    width: 160px;
+    margin: 4px;
+    border-radius: 4px;
+}
+.movie2 img{
+    height: 200px;
+    width: 160px;
+    border-radius: 4px;
+}
+.none2{
+    border: 1px solid red;
+    height: 200px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    display: none;
+    background-color: rgba(0, 0, 0,0.6);
+    position: absolute;
+    top: 883px;
+    left: 268px;
+}
+.none2 i{
+    font-size: 60px;
+    color: #59815b;
+    visibility: hidden;
+}
+.movie2:hover .none2{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.movie2:hover .none2>i{
+    visibility: visible;
+    cursor: pointer;
+
+}
+
+.movie3{
+    border: 1px solid red;
+    height: 200px;
+    width: 160px;
+    margin: 4px;
+    border-radius: 4px;
+}
+.movie3 img{
+    height: 200px;
+    width: 160px;
+    border-radius: 4px;
+}
+.none3{
+    border: 1px solid red;
+    height: 200px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    display: none;
+    background-color: rgba(0, 0, 0,0.6);
+    position: absolute;
+    top: 884px;
+    left: 445px;
+}
+.none3 i{
+    font-size: 60px;
+    color: #59815b;
+    visibility: hidden;
+}
+.movie3:hover .none3{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.movie3:hover .none3>i{
+    visibility: visible;
+    cursor: pointer;
+
+}
+
+.movie4{
+    border: 1px solid red;
+    height: 200px;
+    width: 160px;
+    margin: 4px;
+    border-radius: 4px;
+}
+.movie4 img{
+    height: 200px;
+    width: 160px;
+    border-radius: 4px;
+}
+.none4{
+    border: 1px solid red;
+    height: 200px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    display: none;
+    background-color: rgba(0, 0, 0,0.6);
+    position: absolute;
+    top: 883px;
+}
+.none4 i{
+    font-size: 60px;
+    color: #59815b;
+    visibility: hidden;
+}
+.movie4:hover .none4{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.movie4:hover .none4>i{
+    visibility: visible;
+    cursor: pointer;
+}
+.movie5{
+    border: 1px solid red;
+    height: 200px;
+    width: 160px;
+    margin: 4px;
+    border-radius: 4px;
+}
+.movie5 img {
+    height: 200px;
+    width: 160px;
+    border-radius: 4px;
+}
+.none5{
+    border: 1px solid red;
+    height: 200px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    display: none;
+    background-color: rgba(0, 0, 0,0.6);
+    position: absolute;
+    top: 883px;
+}
+.none5 i{
+    font-size: 60px;
+    color: #59815b;
+    visibility: hidden;
+}
+.movie5:hover .none5{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.movie5:hover .none5>i{
+    visibility: visible;
+    cursor: pointer;
+
+}
+.movie6{
+    border: 1px solid red;
+    height: 200px;
+    width: 160px;
+    margin: 4px;
+    border-radius: 4px;
+}
+.movie6 img{
+    height: 200px;
+    width: 160px;
+    border-radius: 4px;
+}
+.none6{
+    border: 1px solid red;
+    height: 200px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    display: none;
+    background-color: rgba(0, 0, 0,0.6);
+    position: absolute;
+    top: 883px;
+}
+.none6 i{
+    font-size: 60px;
+    color: #59815b;
+    visibility: hidden;
+}
+.movie6:hover .none6{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.movie6:hover .none6>i{
+    visibility: visible;
+    cursor: pointer;
+
+}
+.titlepart2{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px; 
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.titleone{
+    border: 1px solid red;
+    height: 40px;
+    width:160px;
+    margin:4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titleone button{
+    background-color: #59815b;
+    color: white;
+    border: none;
+}
+.titletwo{
+    border: 1px solid red;
+    height: 40px;
+    width:160px;
+    margin:4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titletwo button{
+    background-color: #59815b;
+    color: white;
+    border: none;
+}
+.titlethree{
+    border: 1px solid red;
+    height: 40px;
+    width:160px;
+    margin:4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titlethree button{
+    background-color: #59815b;
+    color: white;
+    border: none;
+}
+.titlefour{
+    border: 1px solid red;
+    height: 40px;
+    width:160px;
+    margin:4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titlefour button{
+    background-color: #59815b;
+    color: white;
+    border: none;
+}
+.titlefive{
+    border: 1px solid red;
+    height: 40px;
+    width:160px;
+    margin:4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titlefive button{
+    background-color: #59815b;
+    color: white;
+    border: none;
+}
+.titlesix{
+    border: 1px solid red;
+    height: 40px;
+    width:160px;
+    margin:4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titlesix button{
+    background-color: #59815b;
+    color: white;
+    border: none;
+}
 
 
 
@@ -757,7 +1264,8 @@ body{
     background-color:rgba(255, 255, 255,0.6);
     position: absolute;
     top: 520px;
-    left: 60px;
+    z-index: -1;
+    left: 36px;
     display: flex;
     justify-content: center;
     align-items: center;
