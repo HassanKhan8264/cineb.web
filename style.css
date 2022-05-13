@@ -18,6 +18,7 @@ body{
     margin:0;
     padding:0;
     overflow:auto;
+    background-color: #f3f0eb;
 }
 ::-webkit-scrollbar{
     width: 10px;
@@ -807,6 +808,45 @@ body{
     align-items: center;
     
 }
+.iconleft{
+    border: 1px solid lightgray;
+    height: 50px;
+    width: 50px;
+    border-radius:100px;
+    background-color:rgba(255, 255, 255,0.6);
+    position: absolute;
+    top: 520px;
+    z-index: -1;
+    left: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -2px 2px 4px lightgray;
+
+}
+.iconleft:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.iconright{
+    border: 1px solid lightgray;
+    height: 50px;
+    width: 50px;
+    border-radius:100px;
+    background-color:white;
+    position: absolute;
+    top: 520px;
+    left: 1480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 4px lightgray;
+}
+.iconright:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
 .names{
     display: flex;
 }
@@ -913,17 +953,6 @@ body{
     /* display: flex;
     flex-direction: row; */
 }
-.right-list{
-    border: 1px solid red;
-    width: 25%;
-    height: 100px;
-    /* background-color: red; */
-    margin: 4px;
-    display: flex;
-    flex-direction: row;
-
-}
-
 .trending1{
     display: flex;
     border: 1px solid red;
@@ -2098,60 +2127,143 @@ body{
     color: white;
     border: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.iconleft{
-    border: 1px solid lightgray;
-    height: 50px;
-    width: 50px;
-    border-radius:100px;
-    background-color:rgba(255, 255, 255,0.6);
-    position: absolute;
-    top: 520px;
-    z-index: -1;
-    left: 36px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: -2px 2px 4px lightgray;
+.right-list{
+    border: 1px solid red;
+    /* background-color: red; */
+    width: 25%;
+    /* height: 100px; */
+    /* background-color: red; */
+    margin: 4px;
+    display: block;
+    flex-direction: row;
 
 }
-.iconleft:hover{
-    background-color: lightgray;
+.imdb{
+    border: 1px solid red;
+    color: #59815b;
+    padding: 6px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 2%;
+}
+
+.info{
+    border: 1px solid red;
+    display: flex;
+    margin-top: 4px;
+   
+}
+.rightmovie1{
+    border: 1px solid red;
+    width: 40%;
+}
+.rightmovie1 img:hover{
     cursor: pointer;
 }
-
-.iconright{
-    border: 1px solid lightgray;
-    height: 50px;
-    width: 50px;
-    border-radius:100px;
-    background-color:white;
-    position: absolute;
-    top: 520px;
-    left: 1480px;
+.rightmovie1 img{
+    width: 124px;
+    height: 190px;
+    border: 1px solid red;
+    /* padding: 4px; */
+    border-radius: 4px;
+}
+.rightmoviename{
+    width: 70%;
+    border: 1px solid red;
+    /* height: 10%; */
+    /* margin-top: 140px; */
+    
+}
+.rightmoviename li {
+    list-style: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    /* margin-top: 20px; */
+}
+.rightmoviename button{
+    background-color: #59815b;
+    color: white;
+    border: none;
+    margin-right: 4px;
+}
+#yellow{
+    color: rgb(237, 169, 0);
+}
+.footer footer{
+    background-color:  #181818;
+    height: 150px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+}
+.play{
+    border: 1px solid red;
+    width: 20vw;
+    text-align: center;
+    padding-top: 50px;
+    /* vertical-align:bottom; */
+    /* padding: px; */
+    /* background-color: red; */
+    /* display:flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.play i{
+    font-size: 46px;
+    color: #59815b;
+}
+#copy{
+    color: lightgray;
+    
+}
+.discription{
+    border: 1px solid red;
+    width: 60vw;
+    text-align: center;
+    color: lightgray;
+    /* text-align: justify; */
+    /* background-color: red; */
+    /* display:flex; */
+    /* justify-content: center;align-self; */
+    /* align-items: center/; */
+}
+.discription li{
+    list-style: none;
+    padding-left: 50px;
+    color: white;
+    display: inline;
+
+}
+.warning{
+    border: 1px solid red;
+    width: 20vw;
+    /* background-color: red; */
+    display:flex;
+    justify-content: center;align-self;
     align-items: center;
-    box-shadow: 2px 2px 4px lightgray;
 }
-.iconright:hover{
-    background-color: lightgray;
-    cursor: pointer;
+.warn{
+    border:1px solid lightgray;
+    width: 94%;
+    color: #f3f0eb;
+    /* background-color: red; */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
