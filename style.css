@@ -2248,7 +2248,599 @@ body{
     color: #f3f0eb;
     /* background-color: red; */
 }
+/* navigationbar start here */
+@media screen and (max-width:1200px){
+    .inputbar>i {
+        position: absolute;
+        left: 320px;
+        top:36px;
+    }
+    .menu-box{
+        width: 400px;
+    }
+    #menu{
+        opacity: 100;
+        position: absolute;
+        top: 2vh;
+        left:2vh ;
+    }
+    
+}
+@media screen and (max-width:1024px){
+    .inputbar>i {
+        position: absolute;
+        left: 220px;
+        top:36px;
+    }
+    #menu{
+        opacity: 100;
+        position: absolute;
+        top: 2vh;
+        left:3vh ;
+    } 
 
+}
+@media screen and (max-width:800px){
+    .inputbar>i {
+        position: absolute;
+        left: 170px;
+        top:36px;
+    }
+    .searchbar input{
+        width: 100%;
+    }
+    .searchbar{
+        width: 100%;
+    }
+    .logo{
+        display: none;
+    }
+    #menu{
+        opacity: 100;
+        position: absolute;
+        top: 2vh;
+        left:4.5vh ;
+    }
+
+    
+}
+@media screen and (max-width:768px){
+    .inputbar>i {
+        position: absolute;
+        left: 120px;
+        top:36px;
+    }    
+    .menu-icon{
+        position: absolute;
+        left: 6.5vh;
+        top: 4vh;
+    }
+}
+@media screen and (max-width:600px){
+    .inputbar>i {
+        position: absolute;
+        left: 100px;
+        top:36px;
+    }    
+    #menu{
+            opacity: 00;
+            position: absolute;
+            top: 2vh;
+            left:4.5vh ;        
+    }
+    .menu-icon{
+        position: absolute;
+        left: 5vh;
+        top: 4vh;
+    }
+}
+@media screen and (max-width:500px) {
+    .menu-icon{
+        position: absolute;
+        left: 4vh;
+        top: 4vh;
+    }
+    
+}
+
+@media screen and (max-width:480px){
+    .inputbar>i {
+        position: absolute;
+        left: 90px;
+        top:36px;
+    }
+    #menu{
+        opacity: 100;
+        position: absolute;
+        top: 2vh;
+        left:5vh ;
+    }    
+}
+@media screen and (max-width:360px){
+    .inputbar>i {
+        position: absolute;
+        left: 70px;
+        top:36px;
+    } 
+    .profile{
+        display: none;
+    }   
+    #menu{
+        opacity: 100;
+        position: absolute;
+        top: 2vh;
+        left:3.2vh;
+    }
+    .menu-box{
+        transform: translateX(-200vw);
+    }
+}
+/* navigation bar end here */
+/* container links starts here */
+@media screen and (max-width:1349px) {
+    .links{
+        width: 60%;
+    }
+    .none{
+        position: absolute;
+        top:311px;
+        right: 307px;
+        /* display: block; */
+    }
+    
+}
+@media screen and (max-width:1200px) {
+    .links{
+        width: 66%;
+    }
+    .none{
+        position: absolute;
+        top:311px;
+        right: 240px;
+        /* display: block; */
+    }
+    
+}
+@media screen and (max-width:1024px) {
+    .links{
+        width: 75%;
+    }
+    .none{
+        position: absolute;
+        top:331px;
+        right: 164px;
+        /* display: block; */
+    }
+    
+}
+ @media screen and (max-width:768px) {
+    .links{
+        width: 100%;
+    }
+    .more{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .links{
+        display: none;
+    }   
+}
+
+/* . links container end here */
+/* . carosel starts here */
+@media screen and (max-width:1349px) {
+    .img1 img{
+        width: 222px;
+    }
+    .icon1{
+        width: 222px;
+        position: absolute;
+        left: 75px;
+        top: 372px;
+    }
+    .img2 img{
+        width: 222px;
+    }
+    .icon2{
+        width: 222px;
+        position: absolute;
+        left: 317px;
+        top: 373px;
+    }
+    .img3 img{
+        width: 222px;
+    }
+    .icon3{
+        width: 222px;
+        position: absolute;
+        left: 557px;
+        top: 372px;
+    }
+    .img4 img{
+        width: 222px;
+    }
+    .icon4{
+        width: 222px;
+        position: absolute;
+        left: 798px;
+        top: 372px;
+    }
+    .img5 img{
+        width: 222px;
+    }
+    .icon5{
+        width: 222px;
+        position: absolute;
+        left: 1037px;
+        top: 372px;
+    }
+    .title1{
+        width: 26%;
+    }
+    .title2{
+        width: 26%;
+    }
+    .title3{
+        width: 26%;
+    }
+    .title4{
+        width: 26%;
+    }
+    .title5{
+        width: 26%;
+    }
+    .iconright{
+        position: absolute;
+        top: 530px;
+        left: 1250px;
+        /* background-color: red; */
+    }
+
+}
+@media screen and (max-width:1200px) {
+    .img1 img{
+        width: 200px;
+    }
+    .icon1{
+        width: 200px;
+        position: absolute;
+        left: 68px;
+        top: 372px;
+    }
+    .img2 img{
+        width: 200px;
+    }
+    .icon2{
+        width: 200px;
+        position: absolute;
+        left: 280px;
+        top: 373px;
+    }
+    .img3 img{
+        width: 200px;
+    }
+    .icon3{
+        width: 200px;
+        position: absolute;
+        left: 495px;
+        top: 372px;
+    }
+    .img4 img{
+        width: 200px;
+    }
+    .icon4{
+        width: 200px;
+        position: absolute;
+        left: 710px;
+        top: 372px;
+    }
+    .img5 img{
+        width: 200px;
+    }
+    .icon5{
+        width: 200px;
+        position: absolute;
+        left: 922px;
+        top: 372px;
+    }
+    .title1{
+        width: 25%;
+    }
+    .title2{
+        width: 25%;
+    }
+    .title3{
+        width: 25%;
+    }
+    .title4{
+        width: 25%;
+    }
+    .title5{
+        width: 25%;
+    }
+    .iconright{
+        position: absolute;
+        top: 530px;
+        left: 1110px;
+        /* background-color: red; */
+    }
+
+}
+@media screen and (max-width:1024px) {
+    .img1 img{
+        width: 168px;
+    }
+    .icon1{
+        width: 168px;
+        position: absolute;
+        left: 60px;
+        top: 392px;
+    }
+    .img2 img{
+        width: 168px;
+    }
+    .icon2{
+        width: 168px;
+        position: absolute;
+        left: 240px;
+        top: 392px;
+    }
+    .img3 img{
+        width: 168px;
+    }
+    .icon3{
+        width: 168px;
+        position: absolute;
+        left: 421px;
+        top: 392px;
+    }
+    .img4 img{
+        width: 168px;
+    }
+    .icon4{
+        width: 168px;
+        position: absolute;
+        left: 603px;
+        top: 392px;
+    }
+    .img5 img{
+        width: 168px;
+    }
+    .icon5{
+        width: 168px;
+        position: absolute;
+        left: 785px;
+        top: 392px;
+    }
+    .title1{
+        width: 26%;
+    }
+    .title2{
+        width: 26%;
+    }
+    .title3{
+        width: 26%;
+    }
+    .title4{
+        width: 26%;
+    }
+    .title5{
+        width: 26%;
+    }
+    .iconright{
+        position: absolute;
+        top: 530px;
+        left: 1250px;
+        /* background-color: red; */
+    }
+
+}
+@media screen and (max-width:768px) {
+    .carosel{
+        display: none;
+    }
+   
+    .title1{
+        width: 26%;
+        display: none;
+
+    }
+    .title2{
+        width: 26%;
+        display: none;
+
+    }
+    .title3{
+        width: 26%;
+        display: none;
+
+    }
+    .title4{
+        width: 26%;
+        display: none;
+
+    }
+    .title5{
+        width: 26%;
+        display: none;
+
+    }
+    .iconright{
+        position: absolute;
+        top: 530px;
+        left: 1250px;
+        /* background-color: red; */
+        display: none;
+    }
+
+}
+@media screen and (max-width:1349px) {
+    .parent{
+        width: 100%;
+    }
+    .trending-list{
+        width: 100%;
+    }
+    .left-list{
+        width: 90%;
+    }
+    .right-list{
+        width: 20%;
+    }
+    .rightmoviename{
+        width: 130px;
+        margin-left: 20px;
+    }
+    .none2{
+        position: absolute;
+        left: 189px;
+    }
+    .none3{
+        position: absolute;
+        left: 364px;
+    }
+    .none1part1{
+        position: absolute;
+        left: 12px;
+    }
+    .none1part1l3{
+      position: absolute;
+      left: 12px;  
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .left-list{
+        width: 100%;
+    }
+    .right-list{
+        width: 20%;
+        display: none;
+    }
+    .rightmoviename{
+        width: 130px;
+        margin-left: 20px;
+    }
+
+    .none1{
+        position: absolute;
+        top: 910px;
+        /* left: 214px; */
+        /* display: block; */
+    }
+    
+
+    .none2{
+        position: absolute;
+        top: 910px;
+        left: 214px;
+        /* display: block; */
+    }
+    
+
+    .none3{
+        position: absolute;
+        top: 910px;
+        left: 414px;
+        /* display: block; */
+    }
+    
+
+    .none4{
+        position: absolute;
+        top: 910px;
+        /* left: 214px; */
+        /* display: block; */
+    }
+    
+
+    .none5{
+        position: absolute;
+        top: 910px;
+        /* left: 214px; */
+        /* display: block; */
+    }
+    .none6{
+        position: absolute;
+        top: 910px;
+        /* left: 214px; */
+        /* display: block; */
+    }
+    .none1part1{
+        position: absolute;
+        top: 1193px;
+    }
+    .none2part2{
+        position: absolute;
+        top: 1193px;
+    }
+    .none3part3{
+        position: absolute;
+        top: 1193px;
+    }
+    .none4part4{
+        position: absolute;
+        top: 1193px;
+    }
+    .none5part5{
+        position: absolute;
+        top: 1193px;
+    }
+    .none6part6{
+        position: absolute;
+        top: 1193px;
+    }
+    .none1part1l3{
+        position: absolute;
+        top: 1478px;
+    }
+    .none2part2l3{
+        position: absolute;
+        top: 1478px;
+    }
+    .none3part3l3{
+        position: absolute;
+        top: 1478px;
+    }
+    .none4part4l3{
+        position: absolute;
+        top: 1478px;
+    }
+    .none5part5l3{
+        position: absolute;
+        top: 1478px;
+    }
+    .none6part6l3{
+        position: absolute;
+        top: 1478px;
+    }
+    .none1part1l4{
+        position: absolute;
+        top: 1760px;
+    }
+    .none2part2l4{
+        position: absolute;
+        top: 1760px;
+    }
+    .none3part3l4{
+        position: absolute;
+        top: 1760px;
+    }
+    .none4part4l4{
+        position: absolute;
+        top: 1760px;
+    }
+    .none5part5l4{
+        position: absolute;
+        top: 1760px;
+    }
+    .none6part6l4{
+        position: absolute;
+        top: 1760px;
+    }
+}
 
 
 
