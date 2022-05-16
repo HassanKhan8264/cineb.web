@@ -21,12 +21,12 @@ body{
     background-color: #f3f0eb;
 }
 ::-webkit-scrollbar{
-    width: 10px;
-    background-color: red;
+    width: 8px;
+    background-color:lightgray;
     color: white;
 }
 ::-webkit-scrollbar-thumb{
-    background-color: green;
+    background-color:grey;
     border-radius: 10px;
 }
 ::-webkit-scrollbar-track{
@@ -34,22 +34,21 @@ body{
 }
 .header{
     height:12vh;
-    border:1px solid green;
+    /* border:1px solid green; */
     display: flex;
     flex-direction: row;
     background-color: #273227;
 }
 .menu{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 20vw;
     display: flex;
 }
 .main{
-    border: 1px solid red;
+
     width: 80%;
 }
 .menubox-list{
-    /* background-color: red; */
     width: 263px;
     margin-top:100px;
     margin-left: 120px;
@@ -91,7 +90,7 @@ body{
   top: 4vh;
   left: 4vw;
   /* padding-bottom: 0vh; */
-  border:1px solid red;
+  /* border:1px solid red; */
 }
 .menu-icon span{
     background-color:white;
@@ -183,7 +182,7 @@ body{
     display: block;
 }
 .logo{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 20%;
     display: flex;
     justify-content: center;
@@ -195,14 +194,14 @@ body{
 }
 .searchbar{
     width:60vw;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 .inputbar{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     width: 100%;
     text-align: center;
 }
@@ -221,7 +220,7 @@ body{
 }
 
 .profile{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 20vw;
     display: flex;
     justify-content: center;
@@ -261,7 +260,7 @@ body{
     right: 69px;
 }
 .parent{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 90%;
     margin: 30px auto;
     /* background-color: red; */
@@ -270,10 +269,10 @@ body{
     width: 90%;
     padding: 10px;
     margin: 4px auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .links{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 30px;
     margin: 4px auto;
     width: 50%;
@@ -545,7 +544,7 @@ body{
     right: 0px; 
 }
 .feature{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     color: #59815b;
 }
 .feature h2{
@@ -554,7 +553,7 @@ body{
     /* background-color: red; */
 }
 .carosel{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -857,7 +856,7 @@ body{
     color: gray;
 }
 .title1{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* display: block; */
     height: 60px;
     width: 340px;
@@ -874,7 +873,7 @@ body{
 }
 
 .title2{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* display: block; */
     height: 60px;
     width: 340px;
@@ -891,7 +890,7 @@ body{
 }
 
 .title3{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* display: block; */
     height: 60px;
     width: 340px;
@@ -907,7 +906,7 @@ body{
     margin-left: 8px;
 }
 .title4{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* display: block; */
     height: 60px;
     width: 340px;
@@ -923,7 +922,7 @@ body{
     margin-left: 8px;
 }
 .title5{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* display: block; */
     height: 60px;
     width: 340px;
@@ -939,14 +938,14 @@ body{
     margin-left: 8px;
 }
 .movies-list{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width:100%;
     margin-top: 10px;
     display: flex;
     flex-direction: row;
 }
 .left-list{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 75%;
     /* height: 100px; */
     margin: 4px;
@@ -955,7 +954,7 @@ body{
 }
 .trending1{
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 50px;
     width: 100%;
     /* justify-content: center; */
@@ -1000,27 +999,27 @@ body{
 }
 
 .trending-list{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .trending-list2{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 20px;
 }
 .trending-list3{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 20px;
 }
 .trending-list4{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -1042,7 +1041,7 @@ body{
     margin-top: 20px;
 } */
 .movie1{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     margin: 4px;
@@ -1054,7 +1053,7 @@ body{
     border-radius: 4px;
 }
 .none1{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     display: flex;
@@ -1083,7 +1082,7 @@ body{
 
 }
 .movie1part1{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     margin: 4px;
@@ -1095,7 +1094,7 @@ body{
     border-radius: 4px;
 }
 .none1part1{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     display: flex;
@@ -1125,7 +1124,7 @@ body{
 
 }
 .movie1part1l3{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     margin: 4px;
@@ -1137,7 +1136,7 @@ body{
     border-radius: 4px;
 }
 .none1part1l3{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     display: flex;
@@ -1167,7 +1166,7 @@ body{
 
 }
 .movie1part1l4{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     margin: 4px;
@@ -1179,7 +1178,7 @@ body{
     border-radius: 4px;
 }
 .none1part1l4{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     display: flex;
@@ -1209,7 +1208,7 @@ body{
 
 }
 .movie2{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     margin: 4px;
@@ -1221,7 +1220,7 @@ body{
     border-radius: 4px;
 }
 .none2{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     display: flex;
@@ -1251,7 +1250,7 @@ body{
 
 }
 .movie2part2{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     margin: 4px;
@@ -1263,7 +1262,7 @@ body{
     border-radius: 4px;
 }
 .none2part2{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     display: flex;
@@ -1293,7 +1292,7 @@ body{
 
 }
 .movie2part2l3{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     margin: 4px;
@@ -1305,7 +1304,7 @@ body{
     border-radius: 4px;
 }
 .none2part2l3{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     display: flex;
@@ -1335,7 +1334,7 @@ body{
 
 }
 .movie2part2l4{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     margin: 4px;
@@ -1347,7 +1346,7 @@ body{
     border-radius: 4px;
 }
 .none2part2l4{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     display: flex;
@@ -1377,7 +1376,7 @@ body{
 
 }
 .movie3{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     margin: 4px;
@@ -1389,7 +1388,7 @@ body{
     border-radius: 4px;
 }
 .none3{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     display: flex;
@@ -1419,7 +1418,7 @@ body{
 
 }
 .movie3part3{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     margin: 4px;
@@ -1431,7 +1430,7 @@ body{
     border-radius: 4px;
 }
 .none3part3{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     display: flex;
@@ -1461,7 +1460,7 @@ body{
 
 }
 .movie3part3l3{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     margin: 4px;
@@ -1473,7 +1472,7 @@ body{
     border-radius: 4px;
 }
 .none3part3l3{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     display: flex;
@@ -1503,7 +1502,7 @@ body{
 
 }
 .movie3part3l4{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     margin: 4px;
@@ -1515,7 +1514,7 @@ body{
     border-radius: 4px;
 }
 .none3part3l4{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     display: flex;
@@ -1547,7 +1546,7 @@ body{
 
 
 .movie4{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     margin: 4px;
@@ -1559,7 +1558,7 @@ body{
     border-radius: 4px;
 }
 .none4{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     display: flex;
@@ -1587,7 +1586,7 @@ body{
     cursor: pointer;
 }
 .movie4part4{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     margin: 4px;
@@ -1599,7 +1598,7 @@ body{
     border-radius: 4px;
 }
 .none4part4{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     display: flex;
@@ -1627,7 +1626,7 @@ body{
     cursor: pointer;
 }
 .movie4part4l3{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     margin: 4px;
@@ -1639,7 +1638,7 @@ body{
     border-radius: 4px;
 }
 .none4part4l3{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     display: flex;
@@ -1667,7 +1666,7 @@ body{
     cursor: pointer;
 }
 .movie4part4l4{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     margin: 4px;
@@ -1679,7 +1678,7 @@ body{
     border-radius: 4px;
 }
 .none4part4l4{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     display: flex;
@@ -1707,7 +1706,7 @@ body{
     cursor: pointer;
 }
 .movie5{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     margin: 4px;
@@ -1719,7 +1718,7 @@ body{
     border-radius: 4px;
 }
 .none5{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     display: flex;
@@ -1748,7 +1747,7 @@ body{
 
 }
 .movie5part5{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     margin: 4px;
@@ -1760,7 +1759,7 @@ body{
     border-radius: 4px;
 }
 .none5part5{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     display: flex;
@@ -1789,7 +1788,7 @@ body{
 
 }
 .movie5part5l3{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     margin: 4px;
@@ -1801,7 +1800,7 @@ body{
     border-radius: 4px;
 }
 .none5part5l3{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     display: flex;
@@ -1830,7 +1829,7 @@ body{
 
 }
 .movie5part5l4{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     margin: 4px;
@@ -1842,7 +1841,7 @@ body{
     border-radius: 4px;
 }
 .none5part5l4{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     display: flex;
@@ -1871,7 +1870,7 @@ body{
 
 }
 .movie6{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     margin: 4px;
@@ -1883,7 +1882,7 @@ body{
     border-radius: 4px;
 }
 .none6{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     display: flex;
@@ -1912,7 +1911,7 @@ body{
 
 }
 .movie6part6{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     margin: 4px;
@@ -1924,7 +1923,7 @@ body{
     border-radius: 4px;
 }
 .none6part6{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     display: flex;
@@ -1953,7 +1952,7 @@ body{
 
 }
 .movie6part6l3{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     margin: 4px;
@@ -1965,7 +1964,7 @@ body{
     border-radius: 4px;
 }
 .none6part6l3{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     display: flex;
@@ -1994,7 +1993,7 @@ body{
 
 }
 .movie6part6l4{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     margin: 4px;
@@ -2006,7 +2005,7 @@ body{
     border-radius: 4px;
 }
 .none6part6l4{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 160px;
     display: flex;
@@ -2035,7 +2034,7 @@ body{
 
 }
 .titlepart2{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -2044,7 +2043,7 @@ body{
     /* align-items: center; */
 }
 .titleone{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 40px;
     width:160px;
     margin:4px;
@@ -2058,7 +2057,7 @@ body{
     border: none;
 }
 .titletwo{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 40px;
     width:160px;
     margin:4px;
@@ -2072,7 +2071,7 @@ body{
     border: none;
 }
 .titlethree{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 40px;
     width:160px;
     margin:4px;
@@ -2086,7 +2085,7 @@ body{
     border: none;
 }
 .titlefour{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 40px;
     width:160px;
     margin:4px;
@@ -2100,7 +2099,7 @@ body{
     border: none;
 }
 .titlefive{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 40px;
     width:160px;
     margin:4px;
@@ -2114,7 +2113,7 @@ body{
     border: none;
 }
 .titlesix{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 40px;
     width:160px;
     margin:4px;
@@ -2128,7 +2127,7 @@ body{
     border: none;
 }
 .right-list{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* background-color: red; */
     width: 25%;
     /* height: 100px; */
@@ -2139,7 +2138,7 @@ body{
 
 }
 .imdb{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     color: #59815b;
     padding: 6px;
     display: flex;
@@ -2149,13 +2148,13 @@ body{
 }
 
 .info{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     margin-top: 4px;
    
 }
 .rightmovie1{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 40%;
 }
 .rightmovie1 img:hover{
@@ -2164,13 +2163,13 @@ body{
 .rightmovie1 img{
     width: 124px;
     height: 190px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* padding: 4px; */
     border-radius: 4px;
 }
 .rightmoviename{
     width: 70%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* height: 10%; */
     /* margin-top: 140px; */
     
@@ -2197,7 +2196,7 @@ body{
     justify-content: space-between;
 }
 .play{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 20vw;
     text-align: center;
     padding-top: 50px;
@@ -2217,7 +2216,7 @@ body{
     
 }
 .discription{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 60vw;
     text-align: center;
     color: lightgray;
@@ -2235,11 +2234,11 @@ body{
 
 }
 .warning{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 20vw;
     /* background-color: red; */
     display:flex;
-    justify-content: center;align-self;
+    justify-content: center;
     align-items: center;
 }
 .warn{
@@ -2437,8 +2436,9 @@ body{
     .icon1{
         width: 222px;
         position: absolute;
-        left: 75px;
-        top: 372px;
+        left: 10px;
+        top: 390px;
+
     }
     .img2 img{
         width: 222px;
@@ -2446,8 +2446,8 @@ body{
     .icon2{
         width: 222px;
         position: absolute;
-        left: 317px;
-        top: 373px;
+        left: 277px;
+        top: 389px;
     }
     .img3 img{
         width: 222px;
@@ -2455,8 +2455,8 @@ body{
     .icon3{
         width: 222px;
         position: absolute;
-        left: 557px;
-        top: 372px;
+        left: 545px;
+        top: 391px;
     }
     .img4 img{
         width: 222px;
@@ -2464,8 +2464,8 @@ body{
     .icon4{
         width: 222px;
         position: absolute;
-        left: 798px;
-        top: 372px;
+        left: 810px;
+        top: 389px;
     }
     .img5 img{
         width: 222px;
@@ -2473,8 +2473,8 @@ body{
     .icon5{
         width: 222px;
         position: absolute;
-        left: 1037px;
-        top: 372px;
+        left: 1080px;
+        top: 389px;
     }
     .title1{
         width: 26%;
@@ -2506,8 +2506,8 @@ body{
     .icon1{
         width: 200px;
         position: absolute;
-        left: 68px;
-        top: 372px;
+        left: 10px;
+        top: 409px;
     }
     .img2 img{
         width: 200px;
@@ -2515,8 +2515,8 @@ body{
     .icon2{
         width: 200px;
         position: absolute;
-        left: 280px;
-        top: 373px;
+        left: 246px;
+        top: 409px;
     }
     .img3 img{
         width: 200px;
@@ -2524,8 +2524,8 @@ body{
     .icon3{
         width: 200px;
         position: absolute;
-        left: 495px;
-        top: 372px;
+        left: 483px;
+        top: 409px;
     }
     .img4 img{
         width: 200px;
@@ -2533,8 +2533,8 @@ body{
     .icon4{
         width: 200px;
         position: absolute;
-        left: 710px;
-        top: 372px;
+        left: 720px;
+        top: 409px;
     }
     .img5 img{
         width: 200px;
@@ -2542,8 +2542,8 @@ body{
     .icon5{
         width: 200px;
         position: absolute;
-        left: 922px;
-        top: 372px;
+        left: 955px;
+        top: 409px;
     }
     .title1{
         width: 25%;
@@ -2635,7 +2635,37 @@ body{
         left: 1250px;
         /* background-color: red; */
     }
+    .trending-list{
+        flex-wrap: wrap;
 
+    }
+  
+    .trending-list2{
+        flex-wrap: wrap;
+
+    }
+  
+    .trending-list3{
+        flex-wrap: wrap;
+
+    }
+  
+    .trending-list4{
+        flex-wrap: wrap;
+
+    }
+    .titlepart2{
+        display: none;
+    }
+  
+    .titlepart3{
+        display: none;
+    }
+  
+    .titlepart4{
+        display: none;
+    }
+  
 }
 @media screen and (max-width:768px) {
     .carosel{
@@ -2674,6 +2704,10 @@ body{
         /* background-color: red; */
         display: none;
     }
+    .iconleft{
+        display: none;
+    }
+
 
 }
 @media screen and (max-width:1349px) {
